@@ -1,1 +1,2 @@
-# cascara-code
+# Cascara
+This repository has APIs needed to run Cascara and its variants given traffic demands, link costs and topology information as input. We implemented Cascara using both CVXPY with GUROBI as the solver and native gurobipy API bindings. The native implementation is in `api_opt_native.py` and the `cvxpy` version is in `api_native.py`. The native implementation gave us control over setting parameters of GUROBI. 
