@@ -8,3 +8,6 @@ This repository has APIs needed to run Cascara and its variants given traffic de
 
 * We have removed all references to our input files so those variables will not be available. Replace them with your inputs.
 
+## Notes on Cascara-online
+* The `heuristic_api.py` has all the functionality required for Cascara-online, Entact, GFA and related algorithms.
+* For confidentiality reasons we have removed the `alpha` and `beta` values from the code. These can be found by a parameter sweep. Check the technical report for details.
